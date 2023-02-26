@@ -6,6 +6,38 @@ public class Produit {
 	private String nom;
 	private Categorie categorie;
 	
+	public Produit(int quantite, float prixUnitaire, String nom, Categorie categorie) {
+		this.quantite = quantite;
+		this.prixUnitaire = prixUnitaire;
+		this.nom = nom;
+		this.categorie = categorie;
+	}
+	
+	public int getQuantite() {
+		return quantite;
+	}
+	public void setQuantite(int quantite) {
+		this.quantite = quantite;
+	}
+	public float getPrixUnitaire() {
+		return prixUnitaire;
+	}
+	public void setPrixUnitaire(float prixUnitaire) {
+		this.prixUnitaire = prixUnitaire;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public Categorie getCategorie() {
+		return categorie;
+	}
+	public void setCategorie(Categorie categorie) {
+		this.categorie = categorie;
+	}
+	
 	
 	
 }
