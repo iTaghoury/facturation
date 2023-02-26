@@ -8,8 +8,9 @@ public class Facture {
 	private Client client;
 	private float total;
 	
-	public Facture() {
+	public Facture(Client client) {
 		this.listeProduits = new LinkedList<Produit>();
+		this.client = client;
 		this.total = 0;
 	}
 	
