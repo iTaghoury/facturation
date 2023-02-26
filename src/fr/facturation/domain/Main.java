@@ -12,7 +12,7 @@ public class Main {
 				new Client("Dupont", "Charles")
 		};
 		
-		App.creerFacture(listeClients);
+		App.creerFactures(listeClients);
 
 	}
 

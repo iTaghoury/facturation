@@ -6,6 +6,10 @@ public class Produit {
 	private String nom;
 	private Categorie categorie;
 	
+	
+	/*
+	 * Constructeur
+	 */
 	public Produit(int quantite, float prixUnitaire, String nom, Categorie categorie) {
 		this.quantite = quantite;
 		this.prixUnitaire = prixUnitaire;
@@ -13,6 +17,9 @@ public class Produit {
 		this.categorie = categorie;
 	}
 	
+	/*
+	 * GETTERS AND SETTERS
+	 */
 	public int getQuantite() {
 		return quantite;
 	}

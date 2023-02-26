@@ -3,6 +3,10 @@ package fr.facturation.model;
 public class Client {
 	private String nom, prenom;
 	
+	/*
+	 * Constructeur
+	 */
+	
 	public Client() {
 		this("Doe", "John");
 	}
@@ -11,7 +15,11 @@ public class Client {
 		this.nom = nom;
 		this.prenom = prenom;
 	}
-
+	
+	/*
+	 * GETTERS AND SETTERS
+	 */
+	
 	public String getNom() {
 		return nom;
 	}
